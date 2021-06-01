@@ -1,0 +1,6 @@
+name: AppIdeasMC
+version: ${project.version}
+main: datrat.appideasmc.AppIdeasMain
+api-version: 1.16
+authors: [ DatRat ]
+description: Applying some application ideas on bukkit/spigot/paper.
