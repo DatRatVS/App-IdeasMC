@@ -41,7 +41,11 @@ public class CalculatorMain implements CommandExecutor {
 						return true;
 					}
 					case "/": {
-						int z = x / y;
+
+						float altx = Integer.parseInt(args[0]);
+						float alty = Integer.parseInt(args[2]);
+
+						float z = altx / alty;
 						player.sendMessage(ChatColor.GOLD + "[calc] - Result: " + z);
 						return true;
 						}
