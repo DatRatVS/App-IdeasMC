@@ -6,7 +6,7 @@
 
     <groupId>datrat</groupId>
     <artifactId>app-ideas-mc</artifactId>
-    <version>1.0</version>
+    <version>0.1 Alpha</version>
     <packaging>jar</packaging>
 
     <name>AppIdeasMC</name>
