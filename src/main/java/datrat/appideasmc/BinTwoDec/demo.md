@@ -1,1 +1,1 @@
-[![Demonstration](https://media.discordapp.net/attachments/657560080023289887/849387748011933766/download16x16.png)](https://media.discordapp.net/attachments/738188031529582676/849441794521694238/jNego2fSof.gif)
+<img src="https://i.imgur.com/LFMFdX9.gif" align="center" alt="">
