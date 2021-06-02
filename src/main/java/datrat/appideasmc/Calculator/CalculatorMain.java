@@ -54,7 +54,7 @@ public class CalculatorMain implements CommandExecutor {
 						return true;
 					}
 				} else {
-				player.sendMessage(ChatColor.GOLD + "[calc] - Usage: /calc (x) (operator) (y)");
+				player.sendMessage(ChatColor.GOLD + "[calc] - You did not enter numbers. Usage: /calc (x) (operator) (y)");
 				return true;
 				}
 			}

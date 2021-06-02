@@ -12,3 +12,9 @@ commands:
   calc:
     description: Executes simple calculations.
     usage: /calc (x) (operator) (y)
+  rng:
+    description: Generates a random number between x and y
+    usage: /rng (x) (y)
+  fly:
+    description: Turns your flight on and off.
+    usage: /fly (on/off)
