@@ -9,3 +9,6 @@ commands:
   bin2dec:
     description: Converts binary numbers into decimal numbers.
     usage: /bin2dec (binary)
+  calc:
+    description: Executes simple calculations.
+    usage: /calc (x) (operator) (y)

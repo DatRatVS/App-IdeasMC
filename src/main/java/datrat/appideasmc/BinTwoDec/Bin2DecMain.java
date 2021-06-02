@@ -1,5 +1,6 @@
 package datrat.appideasmc.BinTwoDec;
 
+import datrat.appideasmc.Utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -13,15 +14,6 @@ import static org.bukkit.Bukkit.getLogger;
 
 public class Bin2DecMain implements CommandExecutor {
 
-	public static boolean isInt(String s) {
-		try {
-			Integer.parseInt(s);
-		} catch (NumberFormatException nfe) {
-			return false;
-		}
-		return true;
-	}
-
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
 		Player player = (Player) sender;
@@ -34,7 +26,7 @@ public class Bin2DecMain implements CommandExecutor {
 				player.sendMessage(ChatColor.GOLD + "" + "[b2c] - bin2dec only accepts 8 numbers.");
 				return true;
 			}
-			if (args.length == 1 && isInt(args[0])) {
+			if (args.length == 1 && Utils.isInt(args[0])) {
 			} else {
 				player.sendMessage(ChatColor.GOLD + "" + "[b2c] - bin2dec only accepts numbers.");
 				return true;
