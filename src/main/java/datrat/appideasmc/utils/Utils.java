@@ -1,4 +1,4 @@
-package datrat.appideasmc.Utils;
+package datrat.appideasmc.utils;
 
 import java.util.Random;
 
@@ -22,5 +22,17 @@ public class Utils {
 
 	// Just the integer limit.
 	public static int integerLimit = 2147483647;
+
+	public static String red = "Red_acted";
+
+	public static boolean world(Boolean world) {
+
+		if (world) {
+			red = "gay";
+			return true;
+		}
+
+		return false;
+	}
 
 }

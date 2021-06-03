@@ -1,4 +1,4 @@
-package datrat.appideasmc.Utils.UtilCommands;
+package datrat.appideasmc.utils.utilcommands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -6,7 +6,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class fly implements CommandExecutor {
+public class Fly implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
 		Player player = (Player) sender;

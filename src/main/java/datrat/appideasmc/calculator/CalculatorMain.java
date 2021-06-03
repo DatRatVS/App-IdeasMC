@@ -1,6 +1,6 @@
-package datrat.appideasmc.Calculator;
+package datrat.appideasmc.calculator;
 
-import datrat.appideasmc.Utils.Utils;
+import datrat.appideasmc.utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

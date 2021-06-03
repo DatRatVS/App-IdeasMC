@@ -1,6 +1,6 @@
-package datrat.appideasmc.BinTwoDec;
+package datrat.appideasmc.bin2dec;
 
-import datrat.appideasmc.Utils.Utils;
+import datrat.appideasmc.utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

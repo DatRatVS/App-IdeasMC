@@ -1,13 +1,13 @@
-package datrat.appideasmc.RNG;
+package datrat.appideasmc.rng;
 
-import datrat.appideasmc.Utils.Utils;
+import datrat.appideasmc.utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class RNGMain implements CommandExecutor {
+public class RngMain implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
 		Player player = (Player) sender;
