@@ -15,6 +15,12 @@ commands:
   rng:
     description: Generates a random number between x and y
     usage: /rng (x) (y)
+  loremipsum:
+    description: Generates custom amounts of Lorem Ipsum paragraphs.
+    usage: /loremipsum (amount)
   fly:
     description: Turns your flight on and off.
     usage: /fly (on/off)
+  util:
+    description: Bunch of util commands.
+    usage: /util (util)

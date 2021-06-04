@@ -23,6 +23,8 @@ public class Utils {
 	// Just the integer limit.
 	public static int integerLimit = 2147483647;
 
+	public static float defaultSpeed = 0.1F;
+
 	public static String red = "Red_acted";
 
 	public static boolean world(Boolean world) {
